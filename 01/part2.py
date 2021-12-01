@@ -1,0 +1,10 @@
+import util
+
+def solve(input_path):
+  with open(input_path) as f:
+    depths = [int(s.rstrip()) for s in f]
+    return util.window_increases(depths)
+
+
+if __name__ == '__main__':
+    print(solve('input.txt'))
