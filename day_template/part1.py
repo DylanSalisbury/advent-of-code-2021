@@ -1,8 +1,9 @@
 import util
 
+
 def solve(input_path):
   with open(input_path) as f:
-    s = f.readline().rstrip()
+    s.rstrip() for s in f
 
 
 if __name__ == '__main__':
